@@ -1,1 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>赚钱网</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .ads {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .ad {
+            width: 200px;
+            height: 150px;
+            background-color: #f1f1f1;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #ccc;
+        }
+        .btn {
+            padding: 10px 20px;
+            font-size: 1.2em;
+            margin-top: 20px;
+            cursor: pointer;
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>赚钱网</h1>
+    <div class="ads">
+        <div class="ad">广告1</div>
+        <div class="ad">广告2</div>
+        <div class="ad">广告3</div>
+        <div class="ad">广告4</div>
+    </div>
+    <div>
+        <p>看广告赚钱</p>
+        <button class="btn" onclick="start()">开始</button>
+    </div>
 
+    <script>
+        function start() {
+            window.location.href = "ads.html";
+        }
+    </script>
+</body>
+</html>
